@@ -1,10 +1,5 @@
 var vectorInit = function (dimension) {
-	var vector = [0];
-	for (var i =1; i < dimension; i++) {
-		vector[i]=0;
-	}
-	
-	return vector;
+	return Array(dimension).fill(0);
 }
 
 var vectorDimension = function (vector) {
